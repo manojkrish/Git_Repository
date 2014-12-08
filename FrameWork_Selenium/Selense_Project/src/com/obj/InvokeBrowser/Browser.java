@@ -8,14 +8,14 @@ import org.testng.annotations.BeforeTest;
 public class Browser 
 
 {
-	public static WebDriver driver;
-	
+	public WebDriver driver;
+
 	
 	@BeforeTest
 	public void openBrowser()
 	{
 		
-		WebDriver driver = new FirefoxDriver();
+		driver = new FirefoxDriver();
 		
 		driver.get("http://www.yammer.com");
 		
@@ -27,7 +27,9 @@ public class Browser
 	@AfterTest
 	public void closeBrowser()
 	{
-		driver.close();
+		
+		
+		driver.quit();
 		
 	}
 
