@@ -22,7 +22,7 @@ public class OpenBrowser
    @BeforeTest
    public void launchapp(String browser) throws MalformedURLException
    {
-      String URL = "http://www.yammer.com";
+      String URL = "http://www.calculator.net";
       
       if (browser.equalsIgnoreCase("firefox"))
       {
