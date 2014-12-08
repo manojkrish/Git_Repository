@@ -28,7 +28,7 @@ public class Browse
       if (browser.equalsIgnoreCase("firefox"))
       {
          System.out.println(" Executing on FireFox");
-         String Node = "http://10.98.5.185:5555/wd/hub";
+         String Node = "http://10.112.66.52:5555/wd/hub";
          DesiredCapabilities cap = DesiredCapabilities.firefox();
          cap.setBrowserName("firefox");
          
@@ -58,7 +58,7 @@ public class Browse
          System.out.println(" Executing on IE");
          DesiredCapabilities cap = DesiredCapabilities.chrome();
          cap.setBrowserName("ie");
-         String Node = "http://10.98.5.185:5558/wd/hub";
+         String Node = "http://10.112.66.52:5558/wd/hub";
          driver = new RemoteWebDriver(new URL(Node), cap);
          driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
          

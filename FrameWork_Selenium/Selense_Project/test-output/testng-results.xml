@@ -1,45 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36945" started-at="2014-12-08T11:34:39Z" finished-at="2014-12-08T11:35:16Z">
+  <suite name="Suite" duration-ms="47843" started-at="2014-12-08T12:34:44Z" finished-at="2014-12-08T12:35:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36945" started-at="2014-12-08T11:34:39Z" finished-at="2014-12-08T11:35:16Z">
+    <test name="FirefoxTest" duration-ms="41607" started-at="2014-12-08T12:34:44Z" finished-at="2014-12-08T12:35:25Z">
       <class name="com.obj.TestScript.TestScript">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.obj.TestScript.TestScript@721e0f4f]" name="openBrowser" is-config="true" duration-ms="14085" started-at="2014-12-08T17:04:39Z" finished-at="2014-12-08T17:04:53Z">
+        <test-method status="PASS" signature="launchapp(java.lang.String)[pri:0, instance:com.obj.TestScript.TestScript@6833ce2c]" name="launchapp" is-config="true" duration-ms="14794" started-at="2014-12-08T18:04:44Z" finished-at="2014-12-08T18:04:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="loginlink()[pri:0, instance:com.obj.TestScript.TestScript@721e0f4f]" name="loginlink" duration-ms="4123" started-at="2014-12-08T17:04:53Z" finished-at="2014-12-08T17:04:57Z">
+        </test-method> <!-- launchapp -->
+        <test-method status="PASS" signature="loginlink()[pri:0, instance:com.obj.TestScript.TestScript@6833ce2c]" name="loginlink" duration-ms="6732" started-at="2014-12-08T18:04:59Z" finished-at="2014-12-08T18:05:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginlink -->
-        <test-method status="PASS" signature="LoginInput()[pri:0, instance:com.obj.TestScript.TestScript@721e0f4f]" name="LoginInput" duration-ms="2437" started-at="2014-12-08T17:04:57Z" finished-at="2014-12-08T17:04:59Z">
+        <test-method status="PASS" signature="LoginInput()[pri:0, instance:com.obj.TestScript.TestScript@6833ce2c]" name="LoginInput" duration-ms="2099" started-at="2014-12-08T18:05:05Z" finished-at="2014-12-08T18:05:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginInput -->
-        <test-method status="PASS" signature="PasswordInput()[pri:0, instance:com.obj.TestScript.TestScript@721e0f4f]" name="PasswordInput" duration-ms="2223" started-at="2014-12-08T17:04:59Z" finished-at="2014-12-08T17:05:02Z">
+        <test-method status="PASS" signature="PasswordInput()[pri:0, instance:com.obj.TestScript.TestScript@6833ce2c]" name="PasswordInput" duration-ms="2069" started-at="2014-12-08T18:05:07Z" finished-at="2014-12-08T18:05:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PasswordInput -->
-        <test-method status="PASS" signature="Loginclick()[pri:0, instance:com.obj.TestScript.TestScript@721e0f4f]" name="Loginclick" duration-ms="2162" started-at="2014-12-08T17:05:02Z" finished-at="2014-12-08T17:05:04Z">
+        <test-method status="PASS" signature="Loginclick()[pri:0, instance:com.obj.TestScript.TestScript@6833ce2c]" name="Loginclick" duration-ms="8312" started-at="2014-12-08T18:05:10Z" finished-at="2014-12-08T18:05:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Loginclick -->
-        <test-method status="PASS" signature="Elipse()[pri:0, instance:com.obj.TestScript.TestScript@721e0f4f]" name="Elipse" duration-ms="7352" started-at="2014-12-08T17:05:04Z" finished-at="2014-12-08T17:05:11Z">
+        <test-method status="PASS" signature="Elipse()[pri:0, instance:com.obj.TestScript.TestScript@6833ce2c]" name="Elipse" duration-ms="3100" started-at="2014-12-08T18:05:18Z" finished-at="2014-12-08T18:05:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Elipse -->
-        <test-method status="PASS" signature="LoggingOut()[pri:0, instance:com.obj.TestScript.TestScript@721e0f4f]" name="LoggingOut" duration-ms="4274" started-at="2014-12-08T17:05:11Z" finished-at="2014-12-08T17:05:16Z">
+        <test-method status="PASS" signature="LoggingOut()[pri:0, instance:com.obj.TestScript.TestScript@6833ce2c]" name="LoggingOut" duration-ms="4487" started-at="2014-12-08T18:05:21Z" finished-at="2014-12-08T18:05:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoggingOut -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.obj.TestScript.TestScript@721e0f4f]" name="closeBrowser" is-config="true" duration-ms="252" started-at="2014-12-08T17:05:16Z" finished-at="2014-12-08T17:05:16Z">
+      </class> <!-- com.obj.TestScript.TestScript -->
+    </test> <!-- FirefoxTest -->
+    <test name="IETest" duration-ms="47843" started-at="2014-12-08T12:34:44Z" finished-at="2014-12-08T12:35:32Z">
+      <class name="com.obj.TestScript.TestScript">
+        <test-method status="PASS" signature="launchapp(java.lang.String)[pri:0, instance:com.obj.TestScript.TestScript@2d209079]" name="launchapp" is-config="true" duration-ms="14137" started-at="2014-12-08T18:04:44Z" finished-at="2014-12-08T18:04:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
+        </test-method> <!-- launchapp -->
+        <test-method status="PASS" signature="loginlink()[pri:0, instance:com.obj.TestScript.TestScript@2d209079]" name="loginlink" duration-ms="7030" started-at="2014-12-08T18:04:58Z" finished-at="2014-12-08T18:05:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlink -->
+        <test-method status="PASS" signature="LoginInput()[pri:0, instance:com.obj.TestScript.TestScript@2d209079]" name="LoginInput" duration-ms="2825" started-at="2014-12-08T18:05:05Z" finished-at="2014-12-08T18:05:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInput -->
+        <test-method status="PASS" signature="PasswordInput()[pri:0, instance:com.obj.TestScript.TestScript@2d209079]" name="PasswordInput" duration-ms="2639" started-at="2014-12-08T18:05:08Z" finished-at="2014-12-08T18:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PasswordInput -->
+        <test-method status="PASS" signature="Loginclick()[pri:0, instance:com.obj.TestScript.TestScript@2d209079]" name="Loginclick" duration-ms="8594" started-at="2014-12-08T18:05:11Z" finished-at="2014-12-08T18:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginclick -->
+        <test-method status="PASS" signature="Elipse()[pri:0, instance:com.obj.TestScript.TestScript@2d209079]" name="Elipse" duration-ms="8213" started-at="2014-12-08T18:05:19Z" finished-at="2014-12-08T18:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Elipse -->
+        <test-method status="PASS" signature="LoggingOut()[pri:0, instance:com.obj.TestScript.TestScript@2d209079]" name="LoggingOut" duration-ms="4387" started-at="2014-12-08T18:05:27Z" finished-at="2014-12-08T18:05:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoggingOut -->
       </class> <!-- com.obj.TestScript.TestScript -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- IETest -->
+  </suite> <!-- Suite -->
 </testng-results>
