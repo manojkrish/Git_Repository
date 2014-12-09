@@ -3,9 +3,10 @@ package com.obj.TestScript;
 import org.testng.annotations.Test;
 
 import com.obj.InvokeBrowser.Browse;
+import com.obj.InvokeBrowser.Browser;
 import com.obj.login.Login;
 
-public class TestScript extends Browse 
+public class TestScript extends Browse
 
 {
 

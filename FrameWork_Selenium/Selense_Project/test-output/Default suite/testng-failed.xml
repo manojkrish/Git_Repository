@@ -6,10 +6,10 @@
       <class name="com.obj.TestScript.TestScript">
         <methods>
           <include name="LoginInput"/>
-          <include name="openBrowser"/>
           <include name="PasswordInput"/>
+          <include name="Elipse"/>
           <include name="loginlink"/>
-          <include name="closeBrowser"/>
+          <include name="LoggingOut"/>
           <include name="Loginclick"/>
         </methods>
       </class> <!-- com.obj.TestScript.TestScript -->

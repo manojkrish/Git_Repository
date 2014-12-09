@@ -28,7 +28,7 @@ public class Browse
       if (browser.equalsIgnoreCase("firefox"))
       {
          System.out.println(" Executing on FireFox");
-         String Node = "http://10.98.5.185:5555/wd/hub";
+         String Node = "http://10.98.5.55:5555/wd/hub";
          DesiredCapabilities cap = DesiredCapabilities.firefox();
          cap.setBrowserName("firefox");
          
@@ -40,25 +40,25 @@ public class Browse
          driver.navigate().to(URL);
          driver.manage().window().maximize();
       }
-      /*else if (browser.equalsIgnoreCase("chrome"))
+      else if (browser.equalsIgnoreCase("chrome"))
       {
          System.out.println(" Executing on CHROME");
          DesiredCapabilities cap = DesiredCapabilities.chrome();
          cap.setBrowserName("chrome");
-         String Node = "http://10.112.66.52:5557/wd/hub";
+         String Node = "http://10.98.5.55:5557/wd/hub";
          driver = new RemoteWebDriver(new URL(Node), cap);
          driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
          
          // Launch website
          driver.navigate().to(URL);
          driver.manage().window().maximize();
-      }*/
+      }
       else if (browser.equalsIgnoreCase("ie"))
       {
          System.out.println(" Executing on IE");
          DesiredCapabilities cap = DesiredCapabilities.chrome();
          cap.setBrowserName("ie");
-         String Node = "http://10.98.5.185:5558/wd/hub";
+         String Node = "http://10.98.5.55:5558/wd/hub";
          driver = new RemoteWebDriver(new URL(Node), cap);
          driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
          
