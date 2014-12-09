@@ -2,26 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" parallel="tests">
   <parameter name="browser" value="ie"/>
-  <test name="FirefoxTest(failed)" parallel="tests">
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="com.obj.Scripting.Scripting">
-        <methods>
-          <include name="LoggingOut"/>
-          <include name="Elipse"/>
-          <include name="launchapp"/>
-          <include name="launchapp"/>
-          <include name="launchapp"/>
-        </methods>
-      </class> <!-- com.obj.Scripting.Scripting -->
-    </classes>
-  </test> <!-- FirefoxTest(failed) -->
   <test name="IETest(failed)" parallel="tests">
     <parameter name="browser" value="ie"/>
     <classes>
       <class name="com.obj.Scripting.Scripting">
         <methods>
           <include name="LoggingOut"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
           <include name="Elipse"/>
           <include name="loginlink"/>
           <include name="launchapp"/>
@@ -31,4 +20,21 @@
       </class> <!-- com.obj.Scripting.Scripting -->
     </classes>
   </test> <!-- IETest(failed) -->
+  <test name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.obj.Scripting.Scripting">
+        <methods>
+          <include name="LoggingOut"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="Elipse"/>
+          <include name="launchapp"/>
+          <include name="launchapp"/>
+          <include name="launchapp"/>
+        </methods>
+      </class> <!-- com.obj.Scripting.Scripting -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
