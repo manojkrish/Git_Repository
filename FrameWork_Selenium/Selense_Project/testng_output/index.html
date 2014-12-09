@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">18 methods, 5 failed,   13 passed</span>
+                    <span class="method-stats">18 methods, 4 failed,   14 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -117,11 +117,6 @@
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.obj.Scripting.Scripting" hash-for-method="LoggingOut">LoggingOut</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.obj.Scripting.Scripting" hash-for-method="loginlink">loginlink</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -198,6 +193,11 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.obj.Scripting.Scripting" hash-for-method="loginlink">loginlink</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.obj.Scripting.Scripting" hash-for-method="loginlink">loginlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
@@ -221,30 +221,27 @@
                   <a name="Elipse">
                   </a> <!-- Elipse -->
                   <span class="method-name">Elipse</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == /html/body/header/div[2]/div[4]/ul[2]/li[3]/a/span (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.31 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: Element is no longer valid (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 767 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:02:37&apos;
 System info: host: &apos;w7mrangnathan&apos;, ip: &apos;10.98.5.55&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=9, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:8573/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: 3f3f2aae-0310-4100-8a31-4bdfacf8a726
-Command duration or timeout: 10.54 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=9, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:5466/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 487c0179-494e-4c15-adf2-0d38a687dfb5
+Command duration or timeout: 1.44 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d&apos;, time: &apos;2014-06-03 17:42:30&apos;
 System info: host: &apos;w7mrangnathan&apos;, ip: &apos;10.98.5.55&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=9, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=f68495c5-edd9-4f2a-bf1d-8507e8ad8630, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:8573/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: f68495c5-edd9-4f2a-bf1d-8507e8ad8630
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=9, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=49618a14-0aee-4e68-9e5e-507666f96ab3, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:5466/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 49618a14-0aee-4e68-9e5e-507666f96ab3
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:41)
 	at com.sun.proxy.$Proxy9.click(Unknown Source)
 	at com.obj.LoginSection.LoginBlock.Elipse(Unknown Source)
 	at com.obj.Scripting.Scripting.Elipse(Unknown Source)
@@ -257,37 +254,37 @@ Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d&apos;, time: &a
 System info: host: &apos;w7mrangnathan&apos;, ip: &apos;10.98.5.55&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:136)
-	... 30 more
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == /html/body/header/div[2]/div[4]/ul[2]/li[3]/a/span (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.31 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+	... 31 more
+Caused by: org.openqa.selenium.StaleElementReferenceException: Element is no longer valid (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 767 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:02:37&apos;
 System info: host: &apos;w7mrangnathan&apos;, ip: &apos;10.98.5.55&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=9, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:8573/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: 3f3f2aae-0310-4100-8a31-4bdfacf8a726
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=9, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:5466/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 487c0179-494e-4c15-adf2-0d38a687dfb5
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d&apos;, time: &apos;2014-06-03 17:42:30&apos;
 System info: host: &apos;w7mrangnathan&apos;, ip: &apos;10.98.5.55&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
-Driver info: driver.version: EventFiringWebDriver
+Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
-	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:331)
+	at com.sun.proxy.$Proxy2.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:344)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:63)
+	at com.sun.proxy.$Proxy3.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:29)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:1)
 	at java.util.concurrent.FutureTask.run(Unknown Source)
 	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:168)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-... Removed 27 stack frames
+... Removed 34 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -301,13 +298,13 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:02:37&apos;
 System info: host: &apos;w7mrangnathan&apos;, ip: &apos;10.98.5.55&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
 Driver info: driver.version: unknown
-Command duration or timeout: 17.71 seconds
+Command duration or timeout: 21.36 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d&apos;, time: &apos;2014-06-03 17:42:30&apos;
 System info: host: &apos;w7mrangnathan&apos;, ip: &apos;10.98.5.55&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=29.0, platform=WINDOWS, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=b9987b01-9c9c-4d7e-8841-804bccae6853, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: b9987b01-9c9c-4d7e-8841-804bccae6853
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=29.0, platform=WINDOWS, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=20c6c7d4-0ee6-4000-b50f-d0b1f1d91cd6, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 20c6c7d4-0ee6-4000-b50f-d0b1f1d91cd6
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
@@ -339,8 +336,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d&apos;, time: &apos;2014-06-03 17:42:30&apos;
 System info: host: &apos;w7mrangnathan&apos;, ip: &apos;10.98.5.55&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
 Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/MRANGA~1/AppData/Local/Temp/anonymous5134848894716010192webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/MRANGA~1/AppData/Local/Temp/anonymous5134848894716010192webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/MRANGA~1/AppData/Local/Temp/anonymous8300437885197111777webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/MRANGA~1/AppData/Local/Temp/anonymous8300437885197111777webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548)
 ... Removed 20 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -351,20 +348,20 @@ Driver info: driver.version: unknown
                   </a> <!-- LoggingOut -->
                   <span class="method-name">LoggingOut</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == /html/body/header/div[2]/div[4]/ul[2]/li[3]/ul/li[9]/a (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.19 seconds
+Command duration or timeout: 10.27 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:02:37&apos;
 System info: host: &apos;w7mrangnathan&apos;, ip: &apos;10.98.5.55&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=9, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:8573/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: 3f3f2aae-0310-4100-8a31-4bdfacf8a726
-Command duration or timeout: 10.41 seconds
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=9, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:5466/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 487c0179-494e-4c15-adf2-0d38a687dfb5
+Command duration or timeout: 10.57 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d&apos;, time: &apos;2014-06-03 17:42:30&apos;
 System info: host: &apos;w7mrangnathan&apos;, ip: &apos;10.98.5.55&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=9, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=f68495c5-edd9-4f2a-bf1d-8507e8ad8630, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:8573/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: f68495c5-edd9-4f2a-bf1d-8507e8ad8630
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=9, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=49618a14-0aee-4e68-9e5e-507666f96ab3, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:5466/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 49618a14-0aee-4e68-9e5e-507666f96ab3
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
@@ -388,13 +385,13 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:136)
 	... 30 more
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == /html/body/header/div[2]/div[4]/ul[2]/li[3]/ul/li[9]/a (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.19 seconds
+Command duration or timeout: 10.27 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:02:37&apos;
 System info: host: &apos;w7mrangnathan&apos;, ip: &apos;10.98.5.55&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=9, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:8573/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: 3f3f2aae-0310-4100-8a31-4bdfacf8a726
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=9, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:5466/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 487c0179-494e-4c15-adf2-0d38a687dfb5
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d&apos;, time: &apos;2014-06-03 17:42:30&apos;
 System info: host: &apos;w7mrangnathan&apos;, ip: &apos;10.98.5.55&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
@@ -430,13 +427,13 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:02:37&apos;
 System info: host: &apos;w7mrangnathan&apos;, ip: &apos;10.98.5.55&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
 Driver info: driver.version: unknown
-Command duration or timeout: 10.35 seconds
+Command duration or timeout: 10.29 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d&apos;, time: &apos;2014-06-03 17:42:30&apos;
 System info: host: &apos;w7mrangnathan&apos;, ip: &apos;10.98.5.55&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=29.0, platform=WINDOWS, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=b9987b01-9c9c-4d7e-8841-804bccae6853, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: b9987b01-9c9c-4d7e-8841-804bccae6853
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=29.0, platform=WINDOWS, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=20c6c7d4-0ee6-4000-b50f-d0b1f1d91cd6, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 20c6c7d4-0ee6-4000-b50f-d0b1f1d91cd6
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
@@ -468,84 +465,9 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d&apos;, time: &apos;2014-06-03 17:42:30&apos;
 System info: host: &apos;w7mrangnathan&apos;, ip: &apos;10.98.5.55&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
 Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/MRANGA~1/AppData/Local/Temp/anonymous5134848894716010192webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/MRANGA~1/AppData/Local/Temp/anonymous5134848894716010192webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/MRANGA~1/AppData/Local/Temp/anonymous8300437885197111777webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/MRANGA~1/AppData/Local/Temp/anonymous8300437885197111777webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548)
 ... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginlink">
-                  </a> <!-- loginlink -->
-                  <span class="method-name">loginlink</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == /html/body/div[8]/div/div/div/ul/li[3]/a (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.13 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:02:37&apos;
-System info: host: &apos;w7mrangnathan&apos;, ip: &apos;10.98.5.55&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=9, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:8573/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: 3f3f2aae-0310-4100-8a31-4bdfacf8a726
-Command duration or timeout: 10.40 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d&apos;, time: &apos;2014-06-03 17:42:30&apos;
-System info: host: &apos;w7mrangnathan&apos;, ip: &apos;10.98.5.55&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=9, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=f68495c5-edd9-4f2a-bf1d-8507e8ad8630, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:8573/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: f68495c5-edd9-4f2a-bf1d-8507e8ad8630
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
-	at com.sun.proxy.$Proxy9.click(Unknown Source)
-	at com.obj.LoginSection.LoginBlock.LoginLink(Unknown Source)
-	at com.obj.Scripting.Scripting.loginlink(Unknown Source)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
-Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d&apos;, time: &apos;2014-06-03 17:42:30&apos;
-System info: host: &apos;w7mrangnathan&apos;, ip: &apos;10.98.5.55&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:136)
-	... 30 more
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == /html/body/div[8]/div/div/div/ul/li[3]/a (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.13 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:02:37&apos;
-System info: host: &apos;w7mrangnathan&apos;, ip: &apos;10.98.5.55&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=9, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:8573/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: 3f3f2aae-0310-4100-8a31-4bdfacf8a726
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d&apos;, time: &apos;2014-06-03 17:42:30&apos;
-System info: host: &apos;w7mrangnathan&apos;, ip: &apos;10.98.5.55&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
-Driver info: driver.version: EventFiringWebDriver
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
-	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:168)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -648,6 +570,13 @@ Driver info: driver.version: EventFiringWebDriver
                   <span class="method-name">loginlink</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginlink">
+                  </a> <!-- loginlink -->
+                  <span class="method-name">loginlink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
@@ -725,80 +654,80 @@ data.addRows(18);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Elipse')
 data.setCell(0, 2, 'com.obj.Scripting.Scripting')
-data.setCell(0, 3, 17709);
+data.setCell(0, 3, 21365);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Elipse')
+data.setCell(1, 1, 'Loginclick')
 data.setCell(1, 2, 'com.obj.Scripting.Scripting')
-data.setCell(1, 3, 10543);
+data.setCell(1, 3, 11526);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginlink')
+data.setCell(2, 1, 'LoggingOut')
 data.setCell(2, 2, 'com.obj.Scripting.Scripting')
-data.setCell(2, 3, 10434);
+data.setCell(2, 3, 10573);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'LoggingOut')
 data.setCell(3, 2, 'com.obj.Scripting.Scripting')
-data.setCell(3, 3, 10410);
+data.setCell(3, 3, 10288);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'LoggingOut')
+data.setCell(4, 1, 'Loginclick')
 data.setCell(4, 2, 'com.obj.Scripting.Scripting')
-data.setCell(4, 3, 10347);
+data.setCell(4, 3, 9873);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'Loginclick')
+data.setCell(5, 1, 'loginlink')
 data.setCell(5, 2, 'com.obj.Scripting.Scripting')
-data.setCell(5, 3, 8722);
+data.setCell(5, 3, 7707);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'Loginclick')
 data.setCell(6, 2, 'com.obj.Scripting.Scripting')
-data.setCell(6, 3, 8563);
+data.setCell(6, 3, 7673);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'Loginclick')
+data.setCell(7, 1, 'loginlink')
 data.setCell(7, 2, 'com.obj.Scripting.Scripting')
-data.setCell(7, 3, 7533);
+data.setCell(7, 3, 7239);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'loginlink')
 data.setCell(8, 2, 'com.obj.Scripting.Scripting')
-data.setCell(8, 3, 7131);
+data.setCell(8, 3, 6870);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'loginlink')
+data.setCell(9, 1, 'LoggingOut')
 data.setCell(9, 2, 'com.obj.Scripting.Scripting')
-data.setCell(9, 3, 6674);
+data.setCell(9, 3, 4569);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'LoggingOut')
+data.setCell(10, 1, 'Elipse')
 data.setCell(10, 2, 'com.obj.Scripting.Scripting')
-data.setCell(10, 3, 3768);
+data.setCell(10, 3, 4367);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'Elipse')
 data.setCell(11, 2, 'com.obj.Scripting.Scripting')
-data.setCell(11, 3, 3488);
+data.setCell(11, 3, 4159);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'LoginInput')
 data.setCell(12, 2, 'com.obj.Scripting.Scripting')
-data.setCell(12, 3, 2875);
+data.setCell(12, 3, 3004);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'PasswordInput')
 data.setCell(13, 2, 'com.obj.Scripting.Scripting')
-data.setCell(13, 3, 2714);
+data.setCell(13, 3, 2823);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'LoginInput')
 data.setCell(14, 2, 'com.obj.Scripting.Scripting')
-data.setCell(14, 3, 2153);
+data.setCell(14, 3, 2291);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'PasswordInput')
 data.setCell(15, 2, 'com.obj.Scripting.Scripting')
-data.setCell(15, 3, 2142);
+data.setCell(15, 3, 2152);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'PasswordInput')
 data.setCell(16, 2, 'com.obj.Scripting.Scripting')
-data.setCell(16, 3, 2092);
+data.setCell(16, 3, 2090);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'LoginInput')
 data.setCell(17, 2, 'com.obj.Scripting.Scripting')
-data.setCell(17, 3, 2067);
+data.setCell(17, 3, 2082);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -826,6 +755,10 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.obj.Scripting.Scripting</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
+                <span class="method-name">launchapp(ie)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
                 <span class="method-name">launchapp(firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
@@ -833,103 +766,97 @@ return data;
                 <span class="method-name">launchapp(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
-              <div class="configuration-test before">
-                <span class="method-name">launchapp(ie)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">loginlink</span>
-                <span class="method-start">12912 ms</span>
+                <span class="method-start">10670 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginlink</span>
-                <span class="method-start">13366 ms</span>
+                <span class="method-start">11931 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginlink</span>
-                <span class="method-start">15184 ms</span>
+                <span class="method-start">13850 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">LoginInput</span>
-                <span class="method-start">20497 ms</span>
+                <span class="method-start">17909 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">LoginInput</span>
-                <span class="method-start">21858 ms</span>
+                <span class="method-start">18801 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PasswordInput</span>
-                <span class="method-start">22650 ms</span>
+                <span class="method-start">20204 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">LoginInput</span>
-                <span class="method-start">23346 ms</span>
+                <span class="method-start">21557 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PasswordInput</span>
-                <span class="method-start">23926 ms</span>
+                <span class="method-start">21813 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Loginclick</span>
-                <span class="method-start">24792 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">Loginclick</span>
-                <span class="method-start">26018 ms</span>
+                <span class="method-start">22356 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PasswordInput</span>
-                <span class="method-start">26221 ms</span>
+                <span class="method-start">23639 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Loginclick</span>
-                <span class="method-start">28935 ms</span>
+                <span class="method-start">24636 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Loginclick</span>
+                <span class="method-start">25729 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Elipse</span>
-                <span class="method-start">33355 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">Elipse</span>
-                <span class="method-start">33551 ms</span>
+                <span class="method-start">30029 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">LoggingOut</span>
-                <span class="method-start">36843 ms</span>
+                <span class="method-start">34396 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Elipse</span>
-                <span class="method-start">37657 ms</span>
+                <span class="method-start">35602 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Elipse</span>
+                <span class="method-start">36162 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">40612 ms</span>
+                <span class="method-start">38967 ms</span>
               </div> <!-- configuration-test after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">LoggingOut</span>
-                <span class="method-start">48200 ms</span>
+                <span class="method-start">40321 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">50894 ms</span>
+              </div> <!-- configuration-test after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">LoggingOut</span>
-                <span class="method-start">51260 ms</span>
+                <span class="method-start">56968 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">58610 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-test after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">61608 ms</span>
+                <span class="method-start">67256 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

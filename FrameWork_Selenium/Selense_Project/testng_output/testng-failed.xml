@@ -12,7 +12,6 @@
           <include name="closeBrowser"/>
           <include name="closeBrowser"/>
           <include name="Elipse"/>
-          <include name="loginlink"/>
           <include name="launchapp"/>
           <include name="launchapp"/>
           <include name="launchapp"/>
