@@ -1,0 +1,32 @@
+package training_Java;
+
+public class Training {
+	
+	public static void main(String args[])
+	{
+		int i =100;
+		double j=1.345;
+		char k='r';
+		
+		System.out.println(i);
+		System.out.println(j);
+		System.out.println(k);
+		
+		int a = 10,b=20,c=30;
+		
+		if(a>b & a>c)
+		{
+			System.out.println("A is greater"+a);
+		}
+		else if(b>a & b>c)
+		{
+			System.out.println("b is greater"+b);
+		}
+		else
+		{
+			System.out.println("c is greater"+c);
+		}
+		
+	}
+
+}

@@ -1,0 +1,51 @@
+package training_Java;
+
+public class car {
+
+	String Model;
+	int price;
+	int FuelCapacity;
+	
+	public static void main(String[] args) {
+		
+		
+		car c1 = new car();
+		
+		c1.Model="Mercedes-Benz";
+		
+		System.out.println(c1.Model);
+		
+		c1.start();
+		
+		c1.Stop();
+		
+		car c2 = new car();
+		
+		c2.Model="Ferrari";
+		
+		System.out.println(c2.Model);
+		 
+		c2.start();
+		
+		c2.Stop();
+		
+		
+		
+	}
+		
+		public void start()
+		{
+			System.out.println("Start");
+		}
+		
+		public void Stop()
+		{
+			System.out.println("Stop");
+		}
+		
+		
+		
+		
+		
+
+	}

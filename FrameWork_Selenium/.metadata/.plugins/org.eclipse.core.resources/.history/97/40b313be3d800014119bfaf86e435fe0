@@ -1,0 +1,31 @@
+package training_Java;
+
+public class car {
+
+	public static void main(String[] args) {
+		
+		
+		car c1 = new car();
+		 c1.start();
+		 c1.Stop();
+		
+		
+		
+	}
+		
+		public void start()
+		{
+			System.out.println("Start");
+		}
+		
+		public void Stop()
+		{
+			System.out.println("Stop");
+		}
+		
+		
+		
+		
+		
+
+	}

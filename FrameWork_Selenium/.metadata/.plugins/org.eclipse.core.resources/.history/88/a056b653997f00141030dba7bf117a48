@@ -1,0 +1,16 @@
+package training_Java;
+
+public class Arrays {
+
+	public static void main(String[] args) 
+	{
+		String Username ="XXXXXX";
+		String Password ="YYYYYY";
+		String Email ="Manojkrish@gmail.com";
+		String Zip="123456";
+		
+		
+
+	}
+
+}

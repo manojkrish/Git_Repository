@@ -1,0 +1,55 @@
+package training_Java;
+
+public class Function_Basic {
+	
+	public static void main(String args[])
+	{
+		int s=hit(3,4,5);
+		
+		System.out.println(s);
+		
+		int t=git('h',4,5);
+		
+		System.out.println(t);
+		
+		int g=bit(500);
+		
+		System.out.println(g);
+		
+	}
+	
+	public static int hit(int a,int b, int c)
+	{
+		int sum = a+b+c;
+		
+		return sum;
+		
+	}
+	
+	public static char git(char a,int b,int c)
+	{
+		char d =a;
+		
+		//System.out.println(d);
+		
+		int sum = b +c;
+		
+		return d;
+	}
+	
+	public static int bit(int n)
+	{
+		
+		int  sum = 0;
+		
+		for(int i=0;i<=n;i++)
+		{
+			
+			sum=sum+i;
+			
+		}
+		
+		return sum;
+	}
+	
+}

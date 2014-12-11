@@ -11,19 +11,19 @@ public class LoginBlock
 	@FindBy(how=How.XPATH,using="/html/body/div[8]/div/div/div/ul/li[3]/a")
 	static WebElement LoginLink;
 	
-	@FindBy(how=How.XPATH,using="/html/body/div[8]/div[2]/div/div/form/fieldset/p/span/input")
+	@FindBy(how=How.XPATH,using="/html/body/div/div/div/div/div/div/div/div/form/table/tbody/tr[2]/td/input")
 	static WebElement LoginInput;
 	
-	@FindBy(how=How.XPATH,using="/html/body/div[8]/div[2]/div/div/form/fieldset/p[2]/input")
+	@FindBy(how=How.XPATH,using="/html/body/div/div/div/div/div/div/div/div/form/table/tbody/tr[2]/td[2]/input")
 	static WebElement PassWordInput;
 	
-	@FindBy(how=How.XPATH,using="/html/body/div[8]/div[2]/div/div/form/fieldset[2]/p[2]/button")
+	@FindBy(how=How.XPATH,using="/html/body/div/div/div/div/div/div/div/div/form/table/tbody/tr[2]/td[3]/label/input")
 	static WebElement LogIn_Button;
 	
-	@FindBy(how=How.XPATH,using="/html/body/header/div[2]/div[4]/ul[2]/li[3]/a/span")
+	@FindBy(how=How.XPATH,using="/html/body/div/div/div/div/div/div/div/div/ul/li[7]/a/div")
 	static WebElement Elipses;
 	
-	@FindBy(how=How.XPATH,using="/html/body/header/div[2]/div[4]/ul[2]/li[3]/ul/li[9]/a")
+	@FindBy(how=How.XPATH,using="/html/body/div/div/div/div/div/div/div/div/ul/li[7]/div/div[2]/ul/li[10]/form/label")
 	static WebElement Logout;
 
 	public LoginBlock(WebDriver driver)
@@ -40,12 +40,12 @@ public class LoginBlock
 	
 	public void LoginInput()
 	{
-		LoginInput.sendKeys("manoj.ranganathan@globalenglish.com");
+		LoginInput.sendKeys();
 	}
 	
 	public void passwordInput()
 	{
-		PassWordInput.sendKeys("madan123$");
+		PassWordInput.sendKeys();
 	}
 	
 	public void LogIn_Button()
@@ -62,4 +62,6 @@ public class LoginBlock
 	{
 		Logout.click();
 	}
+	
+	
 }

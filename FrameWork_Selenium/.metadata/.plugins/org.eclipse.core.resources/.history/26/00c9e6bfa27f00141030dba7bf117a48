@@ -1,0 +1,21 @@
+package training_Java;
+
+public class Function_Basic {
+	
+	public static void main(String args[])
+	{
+		int s=hit(3,4,5);
+		System.out.println(s);
+	}
+	
+	public static int hit(int a,int b, int c)
+	{
+		int sum = a+b+c;
+		
+		System.out.println(+sum);
+		
+		return sum;
+		
+	}
+
+}

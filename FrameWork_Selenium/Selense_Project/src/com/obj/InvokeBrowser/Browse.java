@@ -26,7 +26,7 @@ public class Browse
    @BeforeTest
    public void launchapp(String browser) throws MalformedURLException
    {
-      String URL = "http://www.yammer.com";
+      String URL = "http://www.facebook.com";
       
       if (browser.equalsIgnoreCase("firefox"))
       {
@@ -80,4 +80,6 @@ public class Browse
    {
 	   driver.close();
    }
+   
+  
 }

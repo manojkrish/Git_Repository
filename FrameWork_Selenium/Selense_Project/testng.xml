@@ -9,7 +9,7 @@
       </classes>
    </test>
 
-   <test name="ChromeTest">
+   <!-- <test name="ChromeTest">
    <parameter name="browser" value="chrome" />
       <classes>
          <class name="com.obj.Scripting.Scripting" />
@@ -22,5 +22,5 @@
          <class name="com.obj.Scripting.Scripting" />
       </classes>
    </test>
-   
+    -->
 </suite>

@@ -1,0 +1,16 @@
+package training_Java;
+
+public class Concatination {
+
+	public static void main(String[] args) 
+	{
+		String Str ="Hello";
+		
+		String Str1="World";
+		
+		System.out.println(Str+Str1);
+		
+
+	}
+
+}

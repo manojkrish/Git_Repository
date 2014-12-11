@@ -17,7 +17,7 @@ public class Browser
 		
 		driver = new FirefoxDriver();
 		
-		driver.get("http://www.yammer.com");
+		driver.get("http://www.facebook.com");
 		
 		driver.manage().window().maximize();
 		
