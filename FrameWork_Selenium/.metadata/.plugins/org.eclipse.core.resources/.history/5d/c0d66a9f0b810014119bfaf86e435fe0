@@ -56,8 +56,8 @@ public class ActionKeywords
 		public static void waitFor() throws Exception
 		{
 		
-			Thread.sleep(6000);
-		}	
+			Thread.sleep(5000);
+		}
 
 		public static void click_Logout()
 		{
