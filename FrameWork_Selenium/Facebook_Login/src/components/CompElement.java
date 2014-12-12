@@ -1,5 +1,6 @@
 package components;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,11 +10,12 @@ public class CompElement
 {
 	
 	//Logo Components
+	WebDriver driver;
 	
-	
-	@FindBy(how=How.XPATH,using="/html/body/div/div/div/div/div/div/div/a/i")
-	static WebElement Page_logo;
-	
+	public void logo()
+	{
+		driver.findElement(By.xpath("/html/body/div/div/div/div/div/div/div/a/i"));
+	}
 	
 	//Login Components
 	

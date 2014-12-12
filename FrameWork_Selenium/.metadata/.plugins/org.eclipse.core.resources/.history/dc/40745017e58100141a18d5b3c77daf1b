@@ -1,0 +1,38 @@
+package java_tut;
+
+public class ConstPara {
+	
+	String loginlink;
+	String loginInput;
+	String PasswordInput;
+	String loginButton;
+	
+
+	ConstPara(String a,String b,String c,String d){
+		
+		loginlink=a;
+		loginInput=b;
+		PasswordInput=c;
+		loginButton=d;
+	}
+	
+	public void Result()
+	{
+		System.out.print(loginlink);
+		System.out.println("--------------");
+		System.out.print(loginInput);
+		System.out.println("--------------");
+		System.out.print(PasswordInput);
+		System.out.println("--------------");
+		System.out.println(loginButton);
+		System.out.println("--------------");
+	}
+	
+	public static void main(String[] args)
+	{
+		ConstPara CP = new ConstPara("Facebook","Manoj","******","Click");
+		
+		CP.Result();
+	}
+
+}
