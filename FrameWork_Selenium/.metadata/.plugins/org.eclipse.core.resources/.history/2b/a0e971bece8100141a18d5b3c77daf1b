@@ -1,0 +1,21 @@
+package loginpackage;
+
+import components.CompElement;
+
+public class Login 
+
+{
+	
+	public void LogoAvail() throws InterruptedException
+	{
+		CompElement CP = new CompElement();
+		
+		CP.equals("facebook");
+		
+		Thread.sleep(3000);
+		
+		
+	}	
+	
+
+}

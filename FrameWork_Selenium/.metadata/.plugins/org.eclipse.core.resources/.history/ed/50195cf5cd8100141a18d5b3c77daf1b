@@ -1,0 +1,28 @@
+package loginpackage;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import components.CompElement;
+
+public class Login 
+
+{
+	
+	public void LogoAvail()
+	{
+		CompElement CP = new CompElement();
+		
+		CP.getClass();
+		
+		System.out.println(CP.getClass());
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}

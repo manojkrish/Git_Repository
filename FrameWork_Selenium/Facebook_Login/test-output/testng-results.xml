@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14967" started-at="2014-12-12T07:38:08Z" finished-at="2014-12-12T07:38:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14967" started-at="2014-12-12T07:38:08Z" finished-at="2014-12-12T07:38:23Z">
+      <class name="loginpackage.Login">
+        <test-method status="PASS" signature="RunBrowser()[pri:0, instance:loginpackage.Login@357246de]" name="RunBrowser" is-config="true" duration-ms="14944" started-at="2014-12-12T13:08:08Z" finished-at="2014-12-12T13:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunBrowser -->
+        <test-method status="PASS" signature="LogoAvail()[pri:0, instance:loginpackage.Login@357246de]" name="LogoAvail" duration-ms="6" started-at="2014-12-12T13:08:23Z" finished-at="2014-12-12T13:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoAvail -->
+        <test-method status="PASS" signature="StopRun()[pri:0, instance:loginpackage.Login@357246de]" name="StopRun" is-config="true" duration-ms="7" started-at="2014-12-12T13:08:23Z" finished-at="2014-12-12T13:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopRun -->
+      </class> <!-- loginpackage.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

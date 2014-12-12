@@ -1,0 +1,26 @@
+package exception;
+
+public class Try {
+	
+	public static void main(String[] args)
+	
+	{
+		int result,a,b;
+		
+		 a=10;
+		 b=0;
+		
+		try {
+		    result  = a / b;
+		    System.out.println("Result = " + result);
+		  }
+		 
+		  // catch block
+		 
+		  catch ( e) {
+		    System.out.println("Exception caught: Division by zero.");
+		  }
+
+}
+
+}
