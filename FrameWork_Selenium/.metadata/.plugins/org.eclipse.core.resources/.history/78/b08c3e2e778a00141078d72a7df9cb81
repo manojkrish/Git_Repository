@@ -1,0 +1,20 @@
+package java_tut;
+
+public class Tutorial {
+	
+	public static void main(String[] args)
+	{
+		System.out.println("Hello Boss");
+		
+		double x = 45;
+		double y = 10.5;
+		
+		double sum = ( x+y);
+		
+		System.out.println("the value of the sum is : " + sum);
+		
+		String Name = "login";
+	
+		System.out.println(Name);
+	}
+}

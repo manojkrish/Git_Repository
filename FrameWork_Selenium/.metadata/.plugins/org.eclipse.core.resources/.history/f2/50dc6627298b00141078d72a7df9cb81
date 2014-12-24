@@ -1,0 +1,302 @@
+package java_tut;
+
+public class Tutorial
+{
+	
+	public static void main(String[] args)
+	{
+		System.out.println("Hello Boss");
+		
+		double x = 45;
+		double y = 10.5;
+		
+		double sum = ( x+y);
+		
+		System.out.println("the value of the sum is : " + sum);
+		
+		String Name = "login";
+	
+		System.out.println(Name);
+		
+		if(Name =="logi")
+		{
+					
+			System.out.println("Login is pass");
+		
+		}
+		else
+		{
+		
+			System.out.println("Login is fail");
+		
+		}
+		
+		String Username ="Manoj";
+		
+		String Password ="ABCDE";
+		
+		if (Username == "Manoj" && Password == "ABCD")
+		{
+			
+			System.out.println("Login Successfull and entered into application");	
+		
+		}
+		else 
+		{
+		
+			System.out.println("Login is not Successful and failed to entered into application");
+		
+		}	
+		
+		//String Admin = "Manoj";
+		//String Admin = "Phil";
+		
+		String Admin ="George";
+		
+		if (Admin == "Manoj")
+		{
+		
+			System.out.println("Manoj is the Administrator");
+		
+		}
+		else if(Admin =="Phil")
+		{
+		
+			System.out.println("Phil is the User");
+		
+		}
+		else if(Admin =="George")
+		{
+		
+			System.out.println("George is the member");
+		
+		}
+		
+		// Loops 
+		for(int i=1;i<=5;i++)
+		{
+		
+			String  sum1 = "http://www.google.com";
+			
+			System.out.println(sum1);
+			
+		}
+		
+		int  z=-10;
+		while ( z<=0)
+		{
+			
+			System.out.println("The values of the z values are shown here as " +z*-1);
+			
+			z++;
+			
+		}
+		
+		int  d=-10;
+		do
+		{
+			
+			System.out.println("Enter into the loop" +d);
+			
+			d++;
+			
+			System.out.println("Value after the decrement of d:"+d);
+		
+		}
+		while(d>0);
+		
+		System.out.println("Escape from the do while loop");
+		
+		System.out.println("Values of the Do while loop printed");
+		
+		
+		// if else 
+		int a,b;
+		
+		a=10;
+		b=-10;
+		
+		if (a > 0 && b > 0)
+		{
+			System.out.println("A and B are the positive numbers "+a+b);
+		}
+		else if(a>0 && b>0)
+		{
+			System.out.println("One of the number is negative zero");
+		}
+		else if (a>0 && b<0)
+		{
+			System.out.println("A is the +ve number and B is the -ve number");
+		}
+		else if(a<0 && b>0)
+		{
+			System.out.println("A is the -ve number and B is the +ve number");
+		}
+		
+		String username = "Wse";
+		
+		String password = "Wse";
+		
+		if (username == "Wse" && password == "")
+		{
+			System.out.println("Please enter the Password in the Field");
+		}
+		else if(username =="" && password =="")
+		{
+			System.out.println("Please enter the username & password");
+		}
+		else if(username =="" && password=="Wse")
+		{
+			System.out.println("Please enter the password");
+		}
+		else if(username =="Wse" && password =="Wse")
+		{
+			System.out.println("Login is successfull");
+		}
+		else if(username =="WSE" || password=="WSE")
+		{
+			System.out.println("Wrong user name and password");
+		}	
+		
+		
+		// Switch Cases
+		
+		String Features = "Branchmanager";
+		
+		switch(Features)
+		{
+		case "Manager" :
+				
+			System.out.println("This case is for the Manage");
+			
+			break;
+			
+		case "Branch manager":
+			
+			System.out.println("This case is for the branch manager");
+			
+			break;
+			
+		case "Admin":
+			
+			System.out.println("This case is for the Admin block");
+			
+			break;
+			
+		default:
+			
+			System.out.println("No cases");
+			
+			break;
+		}	
+				
+		/// Array
+		
+		int g[]={1,2,3,4,5,6,7,8,9,10};
+		{
+			System.out.println(g[4]+"   "+g[8]);
+			
+			//Enhanced for loop
+			
+		for (int temp : g)
+		{
+			System.out.println(temp);
+		}
+		}
+		
+		System.out.println( "Different " );
+		
+		int h[]=new int[6];
+		
+		h[4] = 10;
+		
+		h[5] = 89;
+		
+		h[0] = 40;
+		
+		for (int temp2 : h)
+		{
+			System.out.println(temp2);
+		}
+		
+		///Array in String
+		
+		String[] str = {"WSE","TCP","APPS"};
+		
+		//Enhanced for
+		
+		for(String temp3 : str)
+		{
+			System.out.println(temp3);
+		}
+		
+		System.out.println(str[0]+ "  " +str[2]);
+	
+		String[] str1 = new String[5];
+		
+		str1[0] = "TCP";
+		
+		str1[4] = "WSE";
+		
+		for(String  temp4 : str1 )
+		{
+			System.out.println(temp4);
+		}
+		
+		//Two Dimensional Arrays
+		
+		int TwoDim [][] = new int [4][5];
+		
+		int temp =0;
+		
+		for (int i =0;i<4;i++)
+		{
+			for(int j=0;j<5;j++)
+			{
+				TwoDim[i][j] = temp;
+				
+				//temp++;
+				
+			}
+		}
+		
+		for(int i=0 ;i<4;i++)
+		{
+			for(int j=0;j<5;j++)
+			{
+				System.out.print(TwoDim[i][j]+ "    ");
+			}
+			
+			System.out.println();
+		}
+		
+		///String manipulation
+		
+		String T = "manoj";
+		
+		System.out.println("Hello" +T);
+		
+		System.out.println(T.charAt(3));
+		
+		System.out.println(T.codePointAt(3));
+		
+		System.out.println(T.codePointBefore(2));
+		
+		System.out.println(T.compareTo("MANOJ"));
+
+		System.out.println(T.compareToIgnoreCase("MANOJ"));
+		
+		System.out.println(T.concat(".Kr"));
+		
+		System.out.println(T.contains("G"));
+		
+		System.out.println(T.length());
+		
+		System.out.println(T.replace("ANOJ", "anoj"));
+		
+		System.out.println(T.substring(2));
+		
+		
+		
+	}
+}

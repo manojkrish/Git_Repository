@@ -1,0 +1,44 @@
+package java_tut;
+
+public class Tutorial {
+	
+	public static void main(String[] args)
+	{
+		System.out.println("Hello Boss");
+		
+		double x = 45;
+		double y = 10.5;
+		
+		double sum = ( x+y);
+		
+		System.out.println("the value of the sum is : " + sum);
+		
+		String Name = "login";
+	
+		System.out.println(Name);
+		
+		if(Name =="logi")
+		{
+					
+			System.out.println("Login is pass");
+		
+		}
+		else
+		{
+		
+			System.out.println("Login is fail");
+		
+		}
+		
+		String Username ="Manoj";
+		String Password ="ABCD";
+		
+		if (Username == "Manoj" && Password == "ABCD")
+		{
+			System.out.println("Login Successfull and entered into application");
+		}else
+		{
+			System.out.println("Login is not Successful and failed to entered into application");
+		}	
+	}
+}

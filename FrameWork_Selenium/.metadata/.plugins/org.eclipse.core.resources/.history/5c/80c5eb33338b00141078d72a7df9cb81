@@ -1,0 +1,16 @@
+package java_tut;
+
+public class Dat {
+	
+	public static void main(String[] args)
+	{
+		String name = "Mike";
+		
+		int Age = 30;
+		
+		double GPA = 1234;
+		
+		System.out.printf("%s is of the %d and he hold the salary as %f",name,Age,GPA);
+	}
+
+}

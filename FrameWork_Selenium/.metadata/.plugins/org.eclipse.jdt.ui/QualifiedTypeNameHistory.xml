@@ -5,19 +5,9 @@
 <fullyQualifiedTypeName name="com.thoughtworks.selenium.Wait"/>
 <fullyQualifiedTypeName name="com.thoughtworks.selenium.Wait.WaitTimedOutException"/>
 <fullyQualifiedTypeName name="com.obj.BrowserOpen.TweakBrowser"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
-<fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.support.How"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
 <fullyQualifiedTypeName name="com.obj.login.Login"/>
-<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
-<fullyQualifiedTypeName name="org.testng.annotations.AfterTest"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 <fullyQualifiedTypeName name="com.obj.InvokeBrowser.Browser"/>
 <fullyQualifiedTypeName name="org.apache.poi.hslf.model.Sheet"/>
 <fullyQualifiedTypeName name="org.apache.poi.sl.usermodel.Sheet"/>
@@ -29,4 +19,17 @@
 <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.WorkbookFactory"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
 <fullyQualifiedTypeName name="java.net.HttpURLConnection"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.How"/>
+<fullyQualifiedTypeName name="components.CompElement"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="testRun.Run"/>
+<fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
+<fullyQualifiedTypeName name="org.testng.annotations.AfterTest"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
+<fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 </qualifiedTypeNameHistroy>

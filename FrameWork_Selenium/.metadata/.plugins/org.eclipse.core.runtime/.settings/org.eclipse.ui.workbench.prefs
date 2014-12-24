@@ -1,2 +1,4 @@
+ColorsAndFontsPreferencePage.selectedElement=Torg.eclipse.egit.ui.GitTheme
 PLUGINS_NOT_ACTIVATED_ON_STARTUP=org.eclipse.m2e.discovery;
 eclipse.preferences.version=1
+org.eclipse.jface.textfont=1|Arial Narrow|11.25|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Arial Narrow;
