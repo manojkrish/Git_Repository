@@ -1,0 +1,46 @@
+package java_tut;
+
+public class MultiDim {
+	
+	public static void main(String[] args)
+	{
+		int grid [][] = {
+								{1,2,3,4},
+				
+								{5,6,7,8,9},
+				
+								{10,11,12,13,14}
+								};
+		
+		System.out.println(grid[2][3]);
+		
+		String [][] text = new String[4][4];
+		
+		text [0][0] = "Hi";
+		text [0][1] = "Hello";
+		text [0][2] = "How";
+		text [0][3] = "Are";
+		
+		text [1][0] = "You";
+		text [1][1] = "Welcome";
+		text [1][2] = "To";
+		text [1][3] = "India";
+		
+		text [2][0] = "How";
+		text [2][1] = "Is";
+		text [2][2] = "Your";
+		text [2][3] = "Country";
+		
+		text [3][0] = "How";
+		text [3][1] = "Old";
+		text [3][2] = "Are";
+		text [3][3] = "You";
+		
+		
+		System.out.println(text[0][0]);
+		
+		
+		
+	}
+
+}
