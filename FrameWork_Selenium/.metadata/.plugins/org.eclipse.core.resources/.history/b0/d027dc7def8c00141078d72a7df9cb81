@@ -1,0 +1,18 @@
+package java_tut;
+
+public class Passing_Returning 
+{
+		
+			String name ;
+			
+			String area;
+			
+			String location(String name,String area)
+			{
+				 
+				String locality = name +area;
+				
+				return locality;
+				
+				}
+			}

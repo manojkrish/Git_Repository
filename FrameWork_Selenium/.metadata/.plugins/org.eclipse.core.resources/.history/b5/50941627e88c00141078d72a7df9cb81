@@ -1,0 +1,17 @@
+package java_tut;
+
+class num{
+
+	int r ;
+	
+	double PI ;
+	
+	double calc(double PI,int r)
+	{
+		
+		double sum = PI *r *r;
+		
+		return sum;
+	
+	}
+}

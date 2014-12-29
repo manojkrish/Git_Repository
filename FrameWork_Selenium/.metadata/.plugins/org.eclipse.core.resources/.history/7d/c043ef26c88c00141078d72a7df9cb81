@@ -1,0 +1,55 @@
+package java_tut;
+
+import java.util.Scanner;
+
+class RedTut {
+	
+	void   getcredentials()
+	{
+		
+		Scanner in = new Scanner(System.in);
+		
+		System.out.println("Enter the Username :");
+		
+		String us = in.next();
+		
+		System.out.println("Enter the Password :");
+		
+		String pas =in.next();
+		
+		String username = us;
+		
+		String password  = pas;
+		
+		System.out.println("Entered into the function");
+		
+		if ((us=="") && (pas== " "))
+		{
+			System.out.println("Please enter the password");
+		}
+		else if (us=="Manoj" && pas=="madan123$")
+		{
+			System.out.println("Login successful");
+		}else if (us==" " && pas==" madan123$")
+		{
+			System.out.println("Please enter the Username");
+		}else if(us==" " && pas==" ")
+		{
+			System.out.println("Please enter the Username and Password");
+		}
+		
+	}
+
+	public static void main(String[] args)
+	{
+		
+		
+		RedTut RT = new RedTut();
+		
+		RT.getcredentials();
+		
+	}
+
+	}
+
+

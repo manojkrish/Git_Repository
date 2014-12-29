@@ -1,0 +1,45 @@
+package java_tut;
+
+import java.util.Scanner;
+
+public class Para {
+	
+	String loginStatus(String url1,String username1,String password1)
+	{
+		String url = null;
+		
+		String username = null;
+		
+		String password = null;
+		
+		String Data = url+username+password;
+		
+		return  Data;	
+	}
+	
+	
+	public static void main(String[] args)
+	{
+		Scanner in = new Scanner(System.in);
+		
+		System.out.println("Enter the URL");
+		
+		String URI = in.next();
+		
+		System.out.println("Enter the Username : ");
+		
+		String Us = in.next();
+		
+		System.out.println("Enter the Password");
+		
+		String pas = in.next();
+		
+		Para pa = new Para();
+		
+		pa.loginStatus(URI, Us, pas);
+		
+		System.out.println(pa.loginStatus(URI, Us, pas));
+		
+	}
+
+}

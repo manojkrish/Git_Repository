@@ -1,0 +1,33 @@
+package java_tut;
+
+class This{
+	
+	private int Age;
+	
+	private String Name;
+	
+	void  getAge(int A)
+	{
+		 Age = A;
+		 
+		 System.out.println(Age);
+	}
+	
+	void getName(String N)
+	{
+		Name = N;
+		
+		System.out.println(Name);
+	}
+	
+	public static void main(String[] args)
+	{
+		
+		This t = new This();
+		
+		t.getAge(30);
+		
+		t.getName("Mike");
+				
+	}
+}

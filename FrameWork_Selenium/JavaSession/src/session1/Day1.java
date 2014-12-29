@@ -32,7 +32,7 @@ public class Day1 {
 		
 		dy.display();
 		
-		System.out.println("Foo");
+		System.out.println("Foo");	
 	}
 	
 }

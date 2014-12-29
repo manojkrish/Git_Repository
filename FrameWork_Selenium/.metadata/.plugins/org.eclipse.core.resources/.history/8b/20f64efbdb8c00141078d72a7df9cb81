@@ -1,0 +1,25 @@
+package java_tut;
+
+public class Getter_Setter {
+	
+	String name;
+	
+	int age;
+	
+	String display()
+	{	
+		return name;
+	}
+	
+	public static void main(String[] args)
+	{
+		Getter_Setter GS = new Getter_Setter();
+	
+		GS.name = "Cristoper";
+		
+		String Min = GS.display();
+	
+		System.out.println(Min);
+	}
+	
+}

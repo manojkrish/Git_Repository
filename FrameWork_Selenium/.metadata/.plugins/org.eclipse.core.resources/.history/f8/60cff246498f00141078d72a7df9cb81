@@ -1,0 +1,9 @@
+ package java_tut;
+
+ class Strin {
+
+	 int a = 12;
+	 
+	 int b = 34;
+	 
+}

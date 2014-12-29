@@ -1,0 +1,23 @@
+package java_tut;
+
+public class Login {
+	
+	String username;
+	
+	String password;
+	
+	void LoginAcess()
+	{
+	
+		if(username == " Manoj" && password =="Manoj")
+		{
+			System.out.println("Login Successfull");
+		} else if(username =="Manoj" && password =="")
+		{
+			System.out.println("Enter the password ");
+		}
+	
+		System.out.println("Login Succcessful");
+	}
+
+}

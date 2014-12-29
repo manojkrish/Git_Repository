@@ -1,0 +1,29 @@
+package java_tut;
+
+import java.util.Scanner;
+
+public class PassingMain {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Name ");
+		
+		String pay = sc.next();
+		
+		System.out.println("Enter the Area");
+		
+		String loc = sc.next();
+		
+		Passing_Returning PR = new Passing_Returning();
+		
+		PR.location(pay, loc);
+		
+		String zip = PR.location(pay, loc);
+		
+		System.out.println(zip);
+		
+		}
+
+}

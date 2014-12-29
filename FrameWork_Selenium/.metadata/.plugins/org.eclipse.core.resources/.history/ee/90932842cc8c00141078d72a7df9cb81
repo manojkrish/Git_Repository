@@ -1,0 +1,28 @@
+package java_tut;
+
+import java.util.Scanner;
+
+public class Log {		
+
+	public static void main(String[] args) {
+		
+		Scanner in = new Scanner(System.in);
+		
+		System.out.println("Enter the user name :");
+		
+		String user = in.next();
+		
+		System.out.println("Enter the password :");
+		
+		String pass = in.next();
+		
+		Login l = new Login();
+		
+		l.username = user;
+		
+		l.password = pass;
+		
+		l.LoginAcess();
+	}
+
+}

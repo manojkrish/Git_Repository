@@ -1,0 +1,27 @@
+package java_tut;
+
+public class Login {
+	
+/*	String username;
+	
+	String password;*/
+	
+	void LoginAcess(String user,String pass)
+	{
+	
+		String us ="Manoj";
+		
+		String pas = "Manoj";
+		
+		if((user == us) &&(pass== pas))
+		{
+			System.out.println("login successful");
+		}
+/*		else
+		{
+			System.out.println("login is not successful");
+		}
+	 */
+	}
+
+}

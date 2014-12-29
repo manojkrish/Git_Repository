@@ -1,0 +1,19 @@
+ package java_tut;
+
+ public class Strin {
+
+	static  int a = 12;
+	 
+	 int b = 34;
+
+	 public static void main(String[] args)
+	 {
+		 Strin st = new Strin();
+		 
+		 int b = Strin.a;
+		 
+		  System.out.println(b);
+	 }
+}
+ 
+ 
