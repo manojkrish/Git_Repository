@@ -1,0 +1,18 @@
+package java_tut;
+
+public class Str {
+
+	public static void main(String[] args) 
+	{
+	String info ="  ";
+	
+	info +="Hi There";
+	
+	info +=" Hi am Fine";
+	
+	info+="How About You";
+	
+	System.out.println(info);
+	}
+
+}
