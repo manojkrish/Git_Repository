@@ -1,0 +1,14 @@
+package inter;
+
+public class Chennai extends Coimbatore implements A,B{
+	
+	String Location="Ayanavaram";
+	
+	String Zipcode="600023";
+	
+	public void display()
+	{
+		System.out.println("Location and the Zipcode for the area is " +Location+"               "+Zipcode);
+	}
+
+}

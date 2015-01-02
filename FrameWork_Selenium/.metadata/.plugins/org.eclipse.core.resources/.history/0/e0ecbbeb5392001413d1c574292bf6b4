@@ -1,0 +1,18 @@
+package java_tut;
+
+public class Device {
+	
+	public static void main(String[] args)
+	{
+		Charger ch = new Charger();
+			
+		ch.cable_Info("Available", "2 mtrs");
+		
+		ch.chargerInfo("250 V", "2000 mAh");
+		
+		Connect con = new Charger();
+		
+		con.connect_Usb();
+	}
+
+}

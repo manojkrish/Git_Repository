@@ -1,0 +1,40 @@
+package accessModifier;
+
+class Private {
+	
+		private int data = 30;
+		
+		private String msg()
+		{
+		
+			return "I am in Private method";
+			 
+		}
+		
+		Private(String Name)
+		{
+			
+			String gi = Name;
+			
+			int source = data;
+			
+			 String text = msg();
+			
+			System.out.println(source);
+			
+			System.out.println(text);
+		}
+
+}
+
+class Privateacess{
+	
+	public static void main(String[] args)
+	{
+		
+		Private p = new Private(3);
+		
+			
+	}
+}
+

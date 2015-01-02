@@ -1,0 +1,54 @@
+package inter;
+
+public class InterProject implements A.C,D {
+
+	public static void main(String[] args) {
+		
+		Chennai ch = new Chennai();
+		
+		ch.coimbatoreZip();
+		
+		ch.display();
+		
+		ch.Erode();
+		
+		ch.MaduraiCode();		
+	
+		A.C ac = new InterProject();
+		
+		ac.Tiruchy();
+		
+		D d = new InterProject();
+		
+		d.print();
+		
+		D df = new InterProject();
+		
+		df.Extends();
+	}
+	
+	@Override
+	public void Tiruchy() 
+	{
+	
+		System.out.println("Hi");
+	}
+
+	@Override
+	public void print() {
+		
+		int Min = 5;
+		
+		System.out.println(Min);
+		
+	}
+
+	@Override
+	public void Extends() {
+		
+		
+		System.out.println("Extends Successfull");
+		
+	}
+
+}

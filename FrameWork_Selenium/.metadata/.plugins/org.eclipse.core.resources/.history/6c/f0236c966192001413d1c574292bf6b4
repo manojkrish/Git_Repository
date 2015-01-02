@@ -1,0 +1,22 @@
+package inter;
+
+public class InterProject {
+
+	public static void main(String[] args) {
+		
+		Chennai ch = new Chennai();
+		
+		ch.coimbatoreZip();
+		
+		ch.display();
+		
+		ch.Erode();
+		
+		ch.MaduraiCode();
+		
+		
+		
+
+	}
+
+}

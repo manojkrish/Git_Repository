@@ -1,0 +1,9 @@
+package inter;
+
+public interface D {
+
+	int Min = 5;
+	
+	void print ();
+	}
+	

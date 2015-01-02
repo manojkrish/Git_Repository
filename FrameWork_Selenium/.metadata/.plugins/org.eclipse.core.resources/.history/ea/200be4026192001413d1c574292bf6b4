@@ -1,0 +1,12 @@
+package inter;
+
+public interface A {
+	
+	public void MaduraiCode();
+	
+	public interface c{
+		
+		public void Tiruchy();
+	}
+
+}

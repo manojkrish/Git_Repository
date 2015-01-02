@@ -1,0 +1,34 @@
+package accessModifier;
+
+class Private {
+	
+		private int data = 30;
+		
+		private String msg()
+		{
+			 System.out.println("I am in Private method");
+		}
+		
+		Private()
+		{
+			int source = data;
+			
+			 String text = msg();
+			
+			System.out.println(source);
+			
+			System.out.println(text);
+		}
+
+}
+
+class Privateacess{
+	
+	public static void main(String[] args)
+	{
+		Private p = new Private();
+		
+		
+	}
+}
+

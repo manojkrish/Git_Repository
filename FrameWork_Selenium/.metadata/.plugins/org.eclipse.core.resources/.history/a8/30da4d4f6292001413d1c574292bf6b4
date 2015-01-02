@@ -1,0 +1,24 @@
+package inter;
+
+public class InterProject implements A.C {
+
+	public static void main(String[] args) {
+		
+		Chennai ch = new Chennai();
+		
+		ch.coimbatoreZip();
+		
+		ch.display();
+		
+		ch.Erode();
+		
+		ch.MaduraiCode();		
+		
+	}
+	@Override
+	public void Tiruchy() {
+	
+		System.out.println("Hi");
+	}
+
+}
