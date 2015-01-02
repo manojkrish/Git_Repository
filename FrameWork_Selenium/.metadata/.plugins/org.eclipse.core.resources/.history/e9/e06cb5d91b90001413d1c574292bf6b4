@@ -1,0 +1,18 @@
+package java_tut;
+
+public class NextPage {
+	
+	String next;
+	
+	String previous;
+	
+	String sts;
+	
+	public void stat(String next,String previous,String sts)
+	{
+		
+		System.out.println(next+"     "+previous+"      "+sts);
+		
+	}
+
+}

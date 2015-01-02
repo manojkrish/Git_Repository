@@ -1,0 +1,17 @@
+package java_tut;
+
+public class Inher2 extends Inher1 {
+	
+	int weight ;
+	
+	int height;
+	
+	void BMICalc()
+	{
+		double BMI = weight/height;
+		
+		System.out.println(BMI);
+	}
+	
+
+}

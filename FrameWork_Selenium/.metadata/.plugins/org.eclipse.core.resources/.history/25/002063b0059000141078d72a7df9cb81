@@ -1,0 +1,20 @@
+package java_tut;
+import java_tut.Inher1;
+
+public class Inher {
+
+	public static void main(String[] args) {
+		
+		Inher1 in = new Inher1();
+		
+		in.age = 27;
+		
+		in.gender = "Male";
+		
+		in.name = "Manoj";
+		
+		in.display();
+
+	}
+
+}

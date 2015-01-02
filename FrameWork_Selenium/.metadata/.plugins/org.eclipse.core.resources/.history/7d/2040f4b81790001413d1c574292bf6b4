@@ -1,0 +1,13 @@
+package java_tut;
+
+public class B {
+
+	int d;
+	
+	int e;
+	
+	public void subtract()
+	{
+		int sub =d-e;
+	}
+}

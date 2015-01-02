@@ -1,0 +1,21 @@
+package java_tut;
+
+public class Device implements Connect{
+	
+	public static void main(String[] args)
+	{
+		Charger ch = new Charger();
+			
+		ch.cable_Info("Available", "2 mtrs");
+		
+		ch.chargerInfo("250 V", "2000 mAh");
+		
+		
+	}
+
+	public void connect_Usb() {
+		
+		System.out.println("Connected");
+		
+	}
+}

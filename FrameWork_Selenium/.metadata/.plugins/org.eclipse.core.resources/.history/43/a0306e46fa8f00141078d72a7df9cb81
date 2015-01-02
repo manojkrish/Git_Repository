@@ -1,0 +1,32 @@
+package java_tut;
+
+public class ObjClas {
+	
+	private int id;
+	
+	private String name;
+	
+	ObjClas(int id,String name)
+	{
+		this.id = id;
+		
+		this.name = name;
+	}
+	
+		public String toString()
+		{
+			 return id +"     "+name;
+		}
+}
+
+class App
+{
+	public static void main(String[] args)
+	{
+		ObjClas OC = new ObjClas(12 , "Phil");
+		
+		//ObjClas OC1 = new ObjClas(34,"Jim");
+		
+	}
+
+}

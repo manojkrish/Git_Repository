@@ -1,0 +1,6 @@
+package java_tut;
+
+public class Inher2 /*extends Inher1*/ {
+	
+
+}

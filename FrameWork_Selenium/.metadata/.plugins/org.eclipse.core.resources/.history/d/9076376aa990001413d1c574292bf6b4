@@ -1,0 +1,25 @@
+package java_tut;
+
+public class Init  {
+
+	public static void main(String[] args) {
+		
+		
+		Browser br = new Browser();
+		
+		br.URL = "http://www.google.com";
+		
+		br.username = "Manoj";
+		
+		br.password = "Manoj";
+		
+		br.displayUrl();
+		
+		br.pageInfo("Active", "Google_Main_Page", "http://www.google.com/forget/link");
+		
+		br.stat("A", "B","Done");
+		
+
+	}
+
+}

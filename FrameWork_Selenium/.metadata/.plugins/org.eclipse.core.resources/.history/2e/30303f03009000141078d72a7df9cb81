@@ -1,0 +1,27 @@
+//// Object class and String
+
+package java_tut;
+
+
+public class Obj {
+
+	
+	public String name;
+	
+	public String toString()
+	{
+		return "Hello";
+	}
+	
+	
+	public static void main(String[] args) 
+	{
+		
+		Obj frog = new Obj();
+		
+		System.out.println(frog);
+		
+		
+	}
+
+}

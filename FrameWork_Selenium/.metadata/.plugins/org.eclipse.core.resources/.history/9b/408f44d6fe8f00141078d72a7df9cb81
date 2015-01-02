@@ -1,0 +1,22 @@
+package java_tut;
+
+class ObjClas{
+	
+	public  String declare()
+	{
+		return "Hello";
+	}
+}
+
+class App
+{
+	
+	public static void main(String [] args)
+	{
+		
+	ObjClas oc = new ObjClas();
+	
+		
+	}
+	
+}

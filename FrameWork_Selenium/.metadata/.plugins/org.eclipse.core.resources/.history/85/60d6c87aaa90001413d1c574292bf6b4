@@ -1,0 +1,8 @@
+package java_tut;
+
+public interface C {
+	
+	
+	public  void addition1(int F,int G);
+
+}

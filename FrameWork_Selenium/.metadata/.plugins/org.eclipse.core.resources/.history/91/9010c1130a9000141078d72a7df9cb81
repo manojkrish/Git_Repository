@@ -1,0 +1,15 @@
+package java_tut;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		Machine m = new Machine();
+		
+		m.start();
+		
+		m.stop();
+
+	}
+
+}

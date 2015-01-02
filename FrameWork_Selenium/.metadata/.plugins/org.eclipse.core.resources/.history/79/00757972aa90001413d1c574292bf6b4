@@ -1,0 +1,30 @@
+package java_tut;
+
+public class A extends B implements C {
+	
+	int a;
+	int b;
+	int c;
+	
+	
+	public void calc()
+	{
+		int Mult = a *b*c;
+		
+		System.out.println(Mult);
+	}
+
+	public void addition1(int F,int G) 
+	{
+	
+		int f =F;
+		
+		int g=G;
+		
+		int sum = g+f ;
+		
+		System.out.println(sum);
+	}
+
+	}
+

@@ -1,0 +1,35 @@
+package java_tut;
+import java_tut.Inher1;
+
+public class Inher {
+
+	public static void main(String[] args) {
+		
+		Inher1 in = new Inher1();
+		
+		in.age =27;
+		
+		in.gender ="Male";
+		
+		in.name = "Manoj";
+		
+		in.display();
+		
+		Inher2 in2 = new Inher2();
+		
+		in2.weight = 125;
+		
+		in2.height = 179;
+		
+		in2.age = 29;
+		
+		in2.gender ="Male";
+		
+		in2.name ="Manoj";
+		
+		in2.display();
+		
+		in2.BMICalc();
+	}
+
+}

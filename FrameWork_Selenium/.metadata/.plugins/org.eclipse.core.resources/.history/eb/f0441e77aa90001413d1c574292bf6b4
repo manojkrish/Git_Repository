@@ -1,0 +1,30 @@
+package java_tut;
+
+public class D {
+
+	public static void main(String[] args) {
+		
+		
+		A a = new A();
+		
+		a.a=2;
+		
+		a.b=3;
+		
+		a.c=4;
+		
+		a.d=5;
+		
+		a.e=6;
+		
+		a.addition1(5, 9);
+		
+		a.calc();
+
+		a.subtract();
+		
+		
+
+	}
+
+}

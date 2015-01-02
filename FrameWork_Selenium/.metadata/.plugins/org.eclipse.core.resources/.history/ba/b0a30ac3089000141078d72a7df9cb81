@@ -1,0 +1,28 @@
+package java_tut;
+
+public class Inher1 {
+	
+	public String name;
+	
+	public int age;
+	
+	public String gender;
+	
+	void concat()
+	{
+		
+		System.out.println(name+age+gender);
+	}
+	
+	void display()
+	{
+		
+		System.out.println(name);
+		
+		System.out.println(age);
+		
+		System.out.println(gender);
+		
+	}
+
+}

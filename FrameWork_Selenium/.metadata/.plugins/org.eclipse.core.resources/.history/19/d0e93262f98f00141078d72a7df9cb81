@@ -1,0 +1,17 @@
+package java_tut;
+
+public class ObjClas {
+	
+		public String toString()
+		{
+			 return "Hello";
+		}
+	
+	public static void main(String[] args)
+	{
+		ObjClas OC = new ObjClas();
+		
+		System.out.println(OC);
+	}
+
+}
