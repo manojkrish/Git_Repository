@@ -1,0 +1,38 @@
+package inter;
+
+public  class Olympus implements Inter1,Inter2 {
+	
+	String firstName ;
+	
+	String lastName;
+
+	@Override
+	public void KillMedusa() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void KillCracker() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void SaveZeus() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void KillAries() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+
+
+		
+	}
+

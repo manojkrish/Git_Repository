@@ -1,0 +1,42 @@
+package inter;
+
+public class Olympus implements Inter1,Inter2 {
+	
+	String firstName ;
+	
+	String lastName;
+	
+	public void kill(String Name)
+	{
+		
+		 String KillName = Name;
+		
+		System.out.println(KillName);
+			
+	}
+
+	@Override
+	public void KillMedusa() {
+		
+		
+	}
+
+	@Override
+	public void KillCracker() {
+
+		
+	}
+
+	@Override
+	public void SaveZeus() {
+		
+		
+	}
+
+	@Override
+	public void KillAries() {
+	
+		
+	}
+
+}

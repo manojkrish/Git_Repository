@@ -1,0 +1,16 @@
+package inter;
+
+public  class Olympus implements Inter1 {
+	
+	String firstName ;
+	
+	String lastName;
+
+
+	
+	
+
+
+		
+	}
+

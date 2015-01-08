@@ -1,0 +1,21 @@
+package array;
+
+public class Arr {
+	
+	public static void main(String[] args){
+		
+		int ar[]={1,2,3,4,5,6,7,8,9,0};
+		
+		System.out.println("\tIndex \t counter");
+		
+		System.out.println("\t--------\t -----------");
+		
+		for(int count =0;count<ar.length;count++)
+		{
+			
+			System.out.println("\t"+count+"\t"+"\t"+ar[count]+"\t");
+			
+		}
+	}
+
+}

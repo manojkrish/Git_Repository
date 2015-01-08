@@ -1,0 +1,25 @@
+package inter;
+
+public class Class_1 {
+	
+	private int a;
+	
+	private int b;
+	
+	Class_1(int c,int d)
+	{
+		
+		int a = c;
+		
+		int b = d;
+	
+	}
+	
+	public void display()
+	{
+		System.out.println(a);
+		
+		System.out.println(b);
+	}
+	
+}

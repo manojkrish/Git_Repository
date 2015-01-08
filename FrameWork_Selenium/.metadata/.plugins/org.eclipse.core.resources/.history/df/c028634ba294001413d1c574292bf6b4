@@ -1,0 +1,13 @@
+package inter;
+
+public class Login {
+	
+	void displayUrl(String URL)
+	{
+		
+		String Web = URL;
+		
+		System.out.println(Web);
+	}
+	
+}

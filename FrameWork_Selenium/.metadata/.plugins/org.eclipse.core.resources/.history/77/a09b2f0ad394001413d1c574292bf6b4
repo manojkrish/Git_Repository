@@ -1,0 +1,15 @@
+package inter;
+ 
+public class Repeat {
+
+	public static void main(String[] args)
+	{
+	try{
+		
+	}
+	catch (Exception Ex)
+	{
+		System.out.println(Ex);
+	}
+}
+}

@@ -1,0 +1,23 @@
+package thread;
+
+public class ThreadClass extends Thread{
+
+	public void run(){
+		for(int i=0;i<=9;i++){
+			System.out.println("Thread count : " +i);
+		}
+		
+	}
+	
+	public static void main(String[] args){
+		
+		ThreadClass TC = new ThreadClass();
+		
+		System.out.println(TC.isAlive());
+		
+		TC.start();
+		
+		System.out.println(TC.isAlive());
+	}
+
+}

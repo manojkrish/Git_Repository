@@ -1,0 +1,32 @@
+package java_tut;
+
+public class Sample2 {
+	
+	double SI;
+	
+	double SimpleCalc(double p,double r,double t)
+	{
+		
+			return SI =p*r*t/100;
+		
+	
+	}
+	
+	public static void main(String[] args)
+	{
+		
+		Sample2 s2 = new Sample2();
+		
+		s2.SimpleCalc(1000,10.5, 4);
+		
+		System.out.println(s2.SimpleCalc(p,r,t));
+		
+		
+		
+			
+		
+		
+		
+	}
+
+}

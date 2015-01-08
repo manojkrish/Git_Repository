@@ -1,0 +1,13 @@
+package inter;
+
+public interface LogInter {
+	
+	public void EnterLogIn();
+	
+	public interface LoginterSuccess{
+		
+		public void ClickLoginButton();
+	}
+	
+
+}

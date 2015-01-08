@@ -1,0 +1,46 @@
+package Except;
+
+public class handling {
+	
+		String name;
+		
+		String address;
+		
+		int age;
+		
+		String gender;
+	
+		double salary;
+		
+		void display()
+		{
+			
+			System.out.printf("%s is of the age %d and the canditate is %s and he is earning a salary of %12.2f and he is residing at %s ",name,age,gender,salary,address);
+			
+		}
+		
+	public static void main(String[] args)
+	{
+		try{
+
+				handling hand = new handling();
+				
+				hand.age =29;
+				
+				hand.gender ="Male";
+				
+				hand.salary = 5678678678678.00;
+				
+				hand.address = "35/84 Pilkington road,Ayanavaram,chennai-600023";
+			
+				hand.name = "Markoni";
+				
+				hand.display();
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+	}
+
+}

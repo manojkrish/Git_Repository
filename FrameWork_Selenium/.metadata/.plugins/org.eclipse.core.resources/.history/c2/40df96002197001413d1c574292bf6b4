@@ -1,0 +1,29 @@
+package thread;
+
+public class SynchronizedKeyword {
+	
+	private int count =0;
+	
+	public static void main(String[] args){
+		
+		SynchronizedKeyword sk = new SynchronizedKeyword();
+		
+		sk.appdowork();			
+		}
+
+	public  void appdowork() {
+		Thread t1 = new Thread(new Runnable(){
+			
+			public void run() {
+			
+				for(int i=0;i<=10;i++){
+					count++;
+				}
+				
+			}
+		});
+		
+		}
+		
+	}
+		

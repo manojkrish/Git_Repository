@@ -55,5 +55,7 @@
 	<classpathentry kind="lib" path="F:/Git_Repository/FrameWork_Selenium/Selense_Project/poi-3.10-FINAL/lib/commons-logging-1.1.jar"/>
 	<classpathentry kind="lib" path="F:/Git_Repository/FrameWork_Selenium/Selense_Project/poi-3.10-FINAL/lib/junit-4.11.jar"/>
 	<classpathentry kind="lib" path="F:/Git_Repository/FrameWork_Selenium/Selense_Project/poi-3.10-FINAL/lib/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="F:/Git_Repository/FrameWork_Selenium/Selense_Project/lib/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="F:/Git_Repository/FrameWork_Selenium/Selense_Project/lib/SaxonLiaison.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

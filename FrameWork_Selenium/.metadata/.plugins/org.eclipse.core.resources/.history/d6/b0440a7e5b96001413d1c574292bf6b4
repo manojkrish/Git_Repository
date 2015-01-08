@@ -1,0 +1,28 @@
+package java_tut;
+
+public class parsing {
+	
+	int a;
+	
+	int b;
+
+	
+	public void calc(){
+		
+		   
+		String c = String.valueOf(a+b);
+	
+		
+		
+		
+	}
+
+	public static void main(String[] args) {
+	
+
+		parsing p = new parsing();
+		
+		p.calc();
+	}
+
+}

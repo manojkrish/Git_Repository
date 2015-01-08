@@ -1,0 +1,30 @@
+package inter;
+
+public class Login implements LogInter,LogInter.LoginterSuccess {
+	
+	void displayUrl(String URL)
+	{
+		
+		String Web = URL;
+		
+		System.out.println(Web);
+	}
+
+	public void EnterLogIn(String username,String password)
+	{
+		
+		String us = username;
+		
+		String pas = password;
+		
+		System.out.println("The username and the password is : " +us+ "       "+pas);
+		
+	}
+
+	public void ClickLoginButton() 
+	{
+		
+		
+	}
+	
+}

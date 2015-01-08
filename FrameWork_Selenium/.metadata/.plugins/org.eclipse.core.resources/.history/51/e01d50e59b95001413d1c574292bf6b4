@@ -1,0 +1,14 @@
+package java_tut;
+import java.util.Scanner;
+public class strt {
+	
+	public static void main(String[] args)
+	{
+		Scanner s = new Scanner(System.in);
+		
+		System.out.println(s.nextLine());
+	}
+	
+	
+
+}

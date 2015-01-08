@@ -1,0 +1,8 @@
+package inter;
+
+public interface LogInter {
+	
+	public void EnterLogIn();
+	
+
+}

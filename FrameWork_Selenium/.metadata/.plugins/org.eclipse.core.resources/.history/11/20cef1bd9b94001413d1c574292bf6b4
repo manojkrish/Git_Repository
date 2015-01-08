@@ -1,0 +1,18 @@
+package inter;
+
+public class Olympus {
+	
+	String firstName ;
+	
+	String lastName;
+	
+	public void kill(String Name)
+	{
+		
+		 String KillName = Name;
+		
+		System.out.println(KillName);
+			
+	}
+
+}

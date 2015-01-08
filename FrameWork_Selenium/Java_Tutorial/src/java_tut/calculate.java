@@ -7,7 +7,7 @@ public class calculate {
 		Employee ep = new Employee();
 		
 		ep.bonus = 2000;
-		
+		  
 		ep.salary = 8000;
 		
 		ep.calculate();

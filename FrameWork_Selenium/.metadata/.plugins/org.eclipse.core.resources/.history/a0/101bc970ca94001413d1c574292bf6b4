@@ -1,0 +1,20 @@
+package inter;
+
+public class Box {
+
+	public double square(double height,double width,double depth)
+	{
+		return (height * width*depth);
+	}
+	
+	public static void main(String[] args)
+	{
+		Box b = new Box();
+		
+		b.square(45, 56,78 );
+		
+		double temp = b.square(double height, width, depth)
+		
+		System.out.println(b.square(0, 0, 0));
+	}	
+}

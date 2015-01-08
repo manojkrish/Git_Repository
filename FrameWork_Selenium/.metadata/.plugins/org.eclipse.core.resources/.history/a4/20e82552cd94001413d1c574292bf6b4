@@ -1,0 +1,32 @@
+package inter;
+
+import java.util.Scanner;
+
+public class Repeat{
+	
+	String name;
+	
+	public static void main(String[] args)
+	{
+		Scanner s = new Scanner(System.in);
+		
+		System.out.println("Please enter the name : ");
+		
+		String in = s.next();
+		
+		Repeat r = new Repeat();
+		
+		r.name = in;
+		
+		String firstName[] = { in };
+
+		int nam =r.name.length();
+		
+		System.out.println(nam);
+		
+		/*for(int i=0 ; i<=r.name.length();i++)
+		{
+			
+		}*/
+	}
+}
