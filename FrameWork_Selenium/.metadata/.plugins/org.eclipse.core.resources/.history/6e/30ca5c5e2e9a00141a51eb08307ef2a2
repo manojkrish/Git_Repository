@@ -1,0 +1,46 @@
+package thread;
+
+public class ThreadA extends Thread {
+
+	public void run() {
+
+		for (int i = 0; i <= 10; i++) {
+
+			System.out.println("No of threads in Class ThreadA : " + i);
+
+		}
+
+	}
+
+}
+class ThreadB extends Thread {
+	public void run() {
+		for (int i = 0; i <= 4; i++) {
+			
+			System.out.println("No of threads in Class ThreadB :  "+i);
+
+		}
+
+	}
+}
+class ThreadC extends Thread {
+	public void run() {
+		for (int i = 0; i <= 4; i++) {
+			
+			System.out.println("No of threads in Class ThreadB :  "+i);
+
+		}
+
+	}
+}
+class ThreadD extends Thread {
+	public void run() {
+		for (int i = 0; i <= 4; i++) {
+			
+			System.out.println("No of threads in Class ThreadB :  "+i);
+
+		}
+
+	}
+}
+

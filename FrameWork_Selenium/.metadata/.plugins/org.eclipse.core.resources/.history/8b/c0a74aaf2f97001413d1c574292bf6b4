@@ -1,0 +1,36 @@
+package thread;
+
+class processor extends Thread {
+	
+	private boolean running = true;
+	
+	public void run()
+	{
+		while(running)
+		{
+			System.out.println("Hello");
+			try
+			{
+				Thread.sleep(100);
+				}
+				catch(Exception e)
+			{
+					System.out.println(e);
+			}
+			}
+		
+		}
+	public void Shutdown(){
+		running=false;
+		
+	}
+}
+
+public class BasicThreadSync {
+	public static void main(String[] args) {
+		processor p = new processor();
+		p.start();
+		p.Shutdown();
+	}
+
+}

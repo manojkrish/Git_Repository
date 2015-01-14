@@ -1,0 +1,13 @@
+package thread;
+
+public class ThreadInitiator extends 
+	
+	ThreadA ta = new ThreadA();
+	ThreadB tb = new ThreadB();
+	ThreadC tc = new ThreadC();
+	ThreadD td = new ThreadD();
+	
+	ta.run();
+	
+
+}
