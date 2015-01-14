@@ -9,7 +9,7 @@ public class FirstApplet extends Applet
 	{
 		//g.drawString("First Applet",20,20);
 		
-		
+		g.create(20, 30, 1500, 1800)
 	}
 
 }
